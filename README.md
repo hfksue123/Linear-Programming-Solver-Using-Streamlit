@@ -12,6 +12,11 @@ Viết thuật toán Simplex cơ bản (file simplex_solver.py)
 Vẽ nghiệm nếu n = 2 (file plot_lp.py)
 > python -m streamlit run app.py
 
+Deploy:
+git add .
+git commit -m "Update requirements.txt for Streamlit Cloud"
+git push
+
 Cải tiến parser để hỗ trợ các biểu thức như max-3x1+2x2 hoặc max -3x1 + 2x2
 Hỗ trợ các ký hiệu toán học như ≤ và ≥.
 Xử lý bài toán không giới nội / vô nghiệm bằng cách kiểm tra trạng thái và các điều kiện khi không có biến vào được chọn.
