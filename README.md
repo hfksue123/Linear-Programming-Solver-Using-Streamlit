@@ -1,5 +1,7 @@
 # 🧮 Linear Programming Solver with Simplex Algorithm (Streamlit App)
 
+[Click here to see the app](https://linear-programming-solver.streamlit.app/)
+
 An application for solving **Linear Programming (LP)** problems using the **Simplex algorithm**, built with **Streamlit**.
 
 ## 💯 Features
