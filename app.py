@@ -235,14 +235,14 @@ st.set_page_config(page_title="LP Solver - Simplex", layout="centered")
 st.title("📈 Simplex - Linear Programming Solver")
 
 st.subheader("🎯 Hàm mục tiêu")
-obj_str = st.text_input("Ví dụ: Max 3x + 2y", value="Max 3x + 2y")
+obj_str = st.text_input("Ví dụ: Max 3x + 2y hoặc min -x1 - x2", value="Max 3x + 2y")
 
 st.subheader("📏 Ràng buộc (cách nhau bằng dấu phẩy ',')")
 constraints_input = st.text_input("Ví dụ: 2x + 3y ≤ 10, x + y <= 6", value="2x + 3y ≤ 10, x + y ≤ 6")
 constraint_lines = re.split(r'\s*,\s*', constraints_input.strip())
 
 st.subheader("🧩 Ràng buộc dấu biến (cách nhau bằng dấu phẩy ',')")
-signs_input = st.text_input("Ví dụ: x ≥ 0, y >=0", value="x ≥ 0, y ≥ 0")
+signs_input = st.text_input("Ví dụ: x ≥ 0, y >=0 (Bỏ trống = tự do)", value="x ≥ 0, y ≥ 0")
 sign_lines = re.split(r'\s*,\s*', signs_input.strip())
 
 st.subheader("📋 Xác nhận dữ liệu đầu vào")
